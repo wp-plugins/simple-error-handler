@@ -10,11 +10,11 @@ A simple plugin that reports the call stack trace when PHP errors occur.
 
 == Description ==
 
-This plugin allows devlopers to debug PHP errors. 
+This plugin allows developers to debug PHP errors. 
 
 *Features for Developers*
 
-* You can get call stack trace when PHP errrors are triggered.
+* You can get call stack trace when PHP errors are triggered.
 * This is particularly helpful in finding errors that are triggered by the WordPress deprecation and 
 doing_it_wrong code.  These errors are reported in the WordPress core instead of at the location 
 where the incorrect usage actually occurs. 
