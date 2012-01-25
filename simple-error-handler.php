@@ -3,7 +3,7 @@
 Plugin Name: Simple Error Handler
 Plugin URI: http://devondev.com/blog/simple-error-handler/
 Description: Allows administrators and developers to get a stack trace when PHP errors occur
-Version: 1.0
+Version: 1.0.1
 Author: Peter Wooster
 Author URI: http://www.devondev.com/
 */
@@ -52,7 +52,7 @@ function seh_trap($errno, $errstr){
     if($seh_trapped)return true;
     $seh_trapped = true;
     $ename = seh_error_code_as_string($errno);
-    echo "Error trapped: $ename($errno), $errstr<br/>";
+    echo "<br/><br/>Error trapped: $ename($errno), $errstr<br/>";
     try {
         seh_throw();
     } catch (Exception $e) {

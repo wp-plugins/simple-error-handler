@@ -4,7 +4,7 @@ Donate link: http://devondev.com/wordpress/
 Tags: debugging, development
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 A simple plugin that reports the call stack trace when PHP errors occur.
 
@@ -36,5 +36,8 @@ and then turn it back on after the plugin is enabled.
 
 = 1.0 =
 * First release.
+
+= 1.0.1 =
+* add two newlines at beginning of report to make top line visible on admin pages.
 
 == Upgrade Notice ==
