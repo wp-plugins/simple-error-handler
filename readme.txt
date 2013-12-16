@@ -3,8 +3,8 @@ Contributors: pkwooster
 Donate link: http://devondev.com/wordpress/
 Tags: debugging, development
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 1.0.1
+Tested up to: 3.8
+Stable tag: 1.1
 
 A simple plugin that reports the call stack trace when PHP errors occur.
 
@@ -33,6 +33,9 @@ so you can use it as a starting point for your own error reporting or logging pl
 and then turn it back on after the plugin is enabled.  
 
 == Changelog ==
+
+= 1.1 =
+* Testing for WordPress 3.8 - new wp-admin interface
 
 = 1.0 =
 * First release.

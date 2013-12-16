@@ -3,7 +3,7 @@
 Plugin Name: Simple Error Handler
 Plugin URI: http://devondev.com/blog/simple-error-handler/
 Description: Allows administrators and developers to get a stack trace when PHP errors occur
-Version: 1.0.1
+Version: 1.1
 Author: Peter Wooster
 Author URI: http://www.devondev.com/
 */
